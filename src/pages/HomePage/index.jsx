@@ -76,7 +76,7 @@ const HomePage = () => {
                             <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                         </svg>
                     </button>
-                    <div className="flex flex-col md-row items-center justify-center gap-6 pt-3 w-full max-w-3xl">
+                    <div className="flex flex-col md-row items-center justify-center gap-6 pt-1 w-full max-w-3xl">
                         <StatCard title="TOTAL VALUE LOCKED" value={1900651796} />
                         <StatCard title="TOTAL TRADING VOLUME" value={987894840261} />
                     </div>
