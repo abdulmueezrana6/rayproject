@@ -58,7 +58,7 @@ const HomePage = () => {
                     </div>
                 </header>
 
-                <main className="flex flex-col items-center justify-center text-center space-y-10 flex-grow mt-2 md-0">
+                <main className="flex flex-col items-center justify-center text-center space-y-10 flex-grow mt-1 md-0">
 <h1 className="text-[2.1rem] sm:text-[2.85rem] lg:text-[3.55rem] font-extrabold max-w-4xl leading-tight">
   An avenue for the evolution of{" "}
   <span className="bg-gradient-to-r from-[#46E2FF] to-[#8B5CF6] bg-clip-text text-transparent">
