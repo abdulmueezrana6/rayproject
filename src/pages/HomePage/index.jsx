@@ -50,7 +50,7 @@ const HomePage = () => {
             <MyPopup isOpen={isPopupOpen} onClose={closePopup} />
             <div className="absolute inset-0 bg-gradient-to-b from-[#2A205B]/80 to-[#100D20]"></div>
             <WavyBackground />
-            <div className="relative z-10 flex flex-col items-center justify-between min-h-screen px-4 sm-6 lg-8 py-2">
+            <div className="relative z-10 flex flex-col items-center justify-between min-h-screen px-4 sm-6 lg-8 py-4">
                 <header className="w-full max-w-7xl mx-auto">
                     <div className="flex items-center space-x-3">
                         <RaydiumLogo />
@@ -58,7 +58,7 @@ const HomePage = () => {
                     </div>
                 </header>
 
-                <main className="flex flex-col items-center justify-center text-center space-y-10 flex-grow mt-10 md-0">
+                <main className="flex flex-col items-center justify-center text-center space-y-10 flex-grow mt-4 md-0">
 <h1 className="text-[2.1rem] sm:text-[2.85rem] lg:text-[3.55rem] font-extrabold max-w-4xl leading-tight">
   An avenue for the evolution of{" "}
   <span className="bg-gradient-to-r from-[#46E2FF] to-[#8B5CF6] bg-clip-text text-transparent">
