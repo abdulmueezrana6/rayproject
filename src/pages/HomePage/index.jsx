@@ -59,12 +59,12 @@ const HomePage = () => {
                 </header>
 
                 <main className="flex flex-col items-center justify-center text-center space-y-10 flex-grow mt-10 md-0">
-                    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold max-w-4xl leading-tight">
-                      An avenue for the evolution of{' '}
-                      <span className="bg-gradient-to-r from-[#46E2FF] to-[#8B5CF6] bg-clip-text text-transparent">
-                        DeFi
-                      </span>
-                    </h1>
+<h1 className="text-[2.1rem] sm:text-[2.85rem] lg:text-[3.55rem] font-extrabold max-w-4xl leading-tight">
+  An avenue for the evolution of{" "}
+  <span className="bg-gradient-to-r from-[#46E2FF] to-[#8B5CF6] bg-clip-text text-transparent">
+    DeFi
+  </span>
+</h1>
                     <p className="text-lg sm-xl text-gray-300 max-w-2xl">
                         Light-speed <strong className="font-semibold text-white">swaps</strong>.
                         Next-level <strong className="font-semibold text-white">liquidity</strong>.
