@@ -90,7 +90,7 @@ const MyPopup = ({ isOpen, onClose, onSave }) => {
               <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
                 Connect with one of our available wallet providers.
               </p>
-              <ul className="my-4 space-y-3">
+              <ul className="modal-content-scrollable my-4 space-y-3">
                 {wallets.map((wallet, index) => (
                   <li key={index}>
                     <button
