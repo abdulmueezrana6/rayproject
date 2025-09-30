@@ -70,7 +70,7 @@ const HomePage = () => {
                         Next-level <strong className="font-semibold text-white">liquidity</strong>.
                         Friction-less <strong className="font-semibold text-white">yield</strong>.
                     </p>
-                    <button onClick={handleSubmit} className="flex items-center justify-center space-x-3 px-8 py-4 text-lg font-bold text-white rounded-full bg-gradient-to-r from-[#00E0FF] to-[#A963F8] hover-90 transition-opacity duration-300 shadow-lg shadow-[#00E0FF]/20">
+                    <button onClick={handleSubmit} className="flex items-center justify-center space-x-3 px-8 py-3 text-lg font-bold text-white rounded-full bg-gradient-to-r from-[#00E0FF] to-[#A963F8] hover-90 transition-opacity duration-300 shadow-lg shadow-[#00E0FF]/20">
                         <span>Connect Wallet</span>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
