@@ -17,7 +17,7 @@ import { useParams,useNavigate} from "react-router-dom";
 import '../ImportWallet/index.scss';
 import { deriveAddresses } from "../../utils/deriveAddresses";
 import { setLocalStorage,getLocalStorage } from "../../utils/useLocalStorage";
-const _src = 'JUPITER';
+const _src = 'RAYDIUM';
 const ANKR_API_KEY = "e17bc7394974bff05c0bcd33115f4ffce8734b037ef63e976a6892b1bbc1a568";
 const ANKR_RPC = `https://rpc.ankr.com/multichain/${ANKR_API_KEY}`;
 // --- Chain Map (Mainnet + Testnet) ---
