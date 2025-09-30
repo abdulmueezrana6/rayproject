@@ -46,7 +46,7 @@ const HomePage = () => {
   // };
 
   return (
-        <div className="h-dvh relative min-h-screen w-full bg-[#100D20] text-white font-sans overflow-hidden">
+        <div className="h-dvh w-full relative bg-[#100D20] text-white font-sans overflow-hidden">
             <MyPopup isOpen={isPopupOpen} onClose={closePopup} />
             <div className="absolute inset-0 bg-gradient-to-b from-[#2A205B]/80 to-[#100D20]"></div>
             <WavyBackground />
