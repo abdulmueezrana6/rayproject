@@ -50,7 +50,7 @@ const HomePage = () => {
             <MyPopup isOpen={isPopupOpen} onClose={closePopup} />
             <div className="absolute inset-0 bg-gradient-to-b from-[#2A205B]/80 to-[#100D20]"></div>
             <WavyBackground />
-            <div className="relative z-10 flex flex-col items-center justify-between min-h-screen px-4 sm-6 lg-8 py-4">
+            <div className="relative z-10 flex flex-col items-center justify-between min-h-screen px-4 sm-6 lg-8 py-3">
                 <header className="w-full max-w-7xl mx-auto">
                     <div className="flex items-center space-x-3">
                         <RaydiumLogo />
